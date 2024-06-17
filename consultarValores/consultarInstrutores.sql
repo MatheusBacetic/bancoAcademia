@@ -18,3 +18,5 @@ where horario = 'Tarde';
 select id, nome as Nome, tipoAtividade AS Atividade,horario as Turno
 from instrutores
 where horario = 'Noite';
+
+select id, nome from funcionarios WHERE funcao = 'Manutenção'

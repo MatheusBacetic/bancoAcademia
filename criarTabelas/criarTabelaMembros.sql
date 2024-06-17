@@ -10,3 +10,5 @@ CREATE TABLE IF NOT EXISTS membros(
   PRIMARY KEY (id),
   UNIQUE KEY (dataAdesao)
 );
+
+ALTER TABLE membros ADD INDEX idx_nome (nome);
