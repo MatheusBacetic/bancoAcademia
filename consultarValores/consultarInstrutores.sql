@@ -20,3 +20,8 @@ from instrutores
 where horario = 'Noite';
 
 select id, nome from funcionarios WHERE funcao = 'Manutenção'
+
+SELECT nome, desempenho
+FROM instrutores
+WHERE desempenho > 3
+LIMIT 3;

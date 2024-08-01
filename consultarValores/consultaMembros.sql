@@ -18,6 +18,10 @@ FROM membros m
 JOIN pagamentos p ON m.id = p.membro_id
 WHERE p.status_pagamento = 'Pendente';
 
+SELECT nome
+FROM membros
+WHERE frequenciaMembros = ANY
+    (SELECT frequenciaMembros FROM membros WHERE frequenciaMembros > 2)
 
 
 

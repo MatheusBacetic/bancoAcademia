@@ -1,2 +1,2 @@
-DELETE FROM membros
-WHERE id >= 1;
+DELETE FROM funcionarios
+WHERE id >= 11;
